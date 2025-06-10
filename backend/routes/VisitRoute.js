@@ -3,7 +3,7 @@ const router = express.Router();
 const Visit = require("../models/Visit");
 
 // Create new visit
-router.post("/visit", async (req, res) => {
+router.post("/visits", async (req, res) => {
   try {
     const visit = new Visit(req.body);
     await visit.save();

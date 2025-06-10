@@ -1,6 +1,6 @@
 const express = require("express");
 const multer = require("multer");
-const Property = require("../models/property");
+const Property = require("../models/Property");
 const path = require("path");
 
 const router = express.Router();
